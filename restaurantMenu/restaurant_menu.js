@@ -1,7 +1,7 @@
 //initialize three arrays
-const breakfastMenu = ['Pancakes', 'Eggs Benedict', 'Oatmeal', 'Fritters'];
-const mainCourseMenu = ['Steak', 'Pasta', 'Burger', 'Salmon'];
-const dessertMenu = ['Cake', 'Ice Cream', 'Pudding', 'Fruit Salad'];
+const breakfastMenu = ['Pancakes- $12', 'Eggs Benedict - $22.99', 'Oatmeal - $21.99', 'Fritters - $15'];
+const mainCourseMenu = ['Steak - $25', 'Pasta - $18.99', 'Burger - $10.99', 'Salmon - $19.00'];
+const dessertMenu = ['Cake - $22', 'Ice Cream - $4.99', 'Pudding - $7.99', 'Fruit Salad - $8.00'];
 
 //iterates through breakfastMenu array using MAP Method
 const breakfastMenuItemsHTML = breakfastMenu.map((item, index) => `<p>Item ${index + 1}: ${item}</p>`).join('');
