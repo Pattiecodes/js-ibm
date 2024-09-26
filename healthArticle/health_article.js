@@ -9,7 +9,7 @@ xhr.onload = function() {
     var articles = xhr.response.articles;
     var articlesDiv = document.getElementById('articles');
 }
-
+    // Uncaught Error: articles.forEach(function(article)) is not defined
   articles.forEach(function(article) {
       var articleDiv = document.createElement('div');
       articleDiv.classList.add('article');
